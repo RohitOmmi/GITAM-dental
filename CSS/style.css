@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", system-ui;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    font-family: "Poppins", system-ui;
+}
+
+#wrapper {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+
+/*******************
+Navbar
+********************/
+
+.child{
+ 
+}
+.button-navbar{
+    color:#100E3D ;
+    background-color: transparent;
+    border: none;
+}
+.bg-body-tertiary{
+    border-radius: 25px !important;
+}
+
+/*********************
+home
+*******************/
+#home{
+    background-color: #100E3D ;
+    margin-top: -25px;
+}
+.your-health-our-prior{
+    color:#ffffff;
+    font-size:24px;
+    font-weight: 700;
+    padding-top: -20px;
+}
+.title-description{
+    font-size:19px;
+    font-weight: 500;
+    color:#ffffff;
+    gap: 3px;;
+}
+.highlight{
+    color:crimson;
+    font-size:19px;
+    font-weight: 700;
+}
+.Comprehensive-medical-care{
+    font-size: 58px;
+    font-weight: 700;
+    color:#ffffff;
+    font-family: "Poppins";
+}
+.btn-danger{
+    padding:10px;
+    border-radius: 18px;;
+}
+.doc-img{
+    margin-top: -35px;
+}
+.bg-white{
+    color: #100E3D;
+}
+.bg-danger{
+    color:#ffffff;
+}
+.info-emergency{
+    margin-top: -25px;
+}
