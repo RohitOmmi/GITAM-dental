@@ -81,3 +81,21 @@ home
 .info-emergency{
     margin-top: -25px;
 }
+/******************
+doctors
+*****************/
+#doctors{
+    padding-top:50px;
+}
+.Specialities-doctors{
+    color:crimson;
+    font-size: 24px;
+    font-weight: 500;
+}
+.custom-button{
+    color:crimson;
+    background-color: transparent;
+    border: 1px solid crimson;
+    border-radius: 25px;
+    padding: 11px;
+}
