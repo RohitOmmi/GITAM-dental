@@ -32,12 +32,26 @@ ul{
     font-weight: 700;
     font-family: "Poppins";
 }
+a{
+    text-decoration: none;
+}
 
 
+/**********************
+header
+*************************/
+.header-address{
+    padding-top:12px;
+}
+.mail-header-address{
+    padding-top:9px;
+}
 /*******************
 Navbar
 ********************/
-
+.nav-link{
+    font-weight: 600 !important;
+}
 .bg-body-tertiary{
     background-color:#ffffff !important;
     box-shadow: 0px 15px 10px rgba(0,0,0,0.1) !important;
@@ -47,6 +61,7 @@ Navbar
     background-color: transparent;
     border: none;
     margin-right: 30px;
+    font-weight: 600 !important;
 }
 .bg-body-tertiary{
     border-radius: 25px !important;
@@ -59,11 +74,16 @@ home
     background-color: #100E3D ;
     margin-top: -25px;
 }
+/*.red-hearted-health{
+    
+}*/
 .your-health-our-prior{
     color:#ffffff;
     font-size:24px;
     font-weight: 700;
-    padding-top: -20px;
+    padding-top: 10px;
+    padding-left: 5px;
+
 }
 .title-description{
     font-size:19px;
@@ -88,7 +108,7 @@ home
     font-size: 20px;
 }
 .doc-img{
-    margin-top: -35px;
+    margin-top: -65px;
 }
 .bg-white{
     color: #100E3D;
@@ -98,8 +118,23 @@ home
 }
 .info-emergency{
     margin-top: -25px;
-    box-shadow: 0px 10px 8px rgba(0,0,0,0.3);
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.2);
     margin-bottom: 150px;
+}
+.number-best-doctor{
+    font-weight: 600;
+    font-size: 28px;
+}
+.text-below-number{
+    font-weight: 500;
+    font-size: 20px;
+}
+.unordered-list{
+    padding-left: 0px !important;
+}
+.emergency-number{
+    padding-left:5px;
+    padding-top: 4px;
 }
 /******************
 Servicees & specialities
@@ -162,22 +197,35 @@ Servicees & specialities
     overflow: hidden;
 }
 .custom-button:hover{
-    color:#d80b0b;
+    color:#181616;
     font-weight: 700;
 }
-.custom-button:before{
+.custom-button:before,.custom-button:after{
     content: "";
     position: absolute;
     width:100%;
-    height: 100%;
+    height: 50%;
     z-index: -1;
     transition: 0.3s;
-    background:#FFFF00;
-    left:-100%;
-    top:0px;
+
+}
+.custom-button:before{
+
+    background:#e880f1;
+    top:50%;
+    left:0px;
+}
+.custom-button:after{
+
+    background:#f1eaf1;
+    bottom:50%;
+    right:0px;
 }
 .custom-button:hover:before{
-    left: 0px;
+    top:0px;
+}
+.custom-button:hover:after{
+    bottom:0px;
 }
 .img-width-height{
     width: 50px;
@@ -190,6 +238,22 @@ Servicees & specialities
     box-shadow: 5px 5px 10px  10px rgb(231, 231, 231);
     margin-top: 30px;
     margin-bottom: 150px;
+    position: relative;
+    display: inline-block;
+    z-index:1;
+    overflow: hidden;
+}
+.card:hover{
+    
+    box-shadow:0px 20px 11px rgba(0,0,0,0.3)
+}
+.card::before{
+    content: '';
+    position: absolute;
+    border:3px solid #DF1B40;
+    width:100%;
+    height: 3px;
+    z-index:-1;
 }
 .card-main-text{
     font-size: 20px;
@@ -295,6 +359,7 @@ specialitiesDoctors
     width:100%;
 }
 .card-body-2{
+    padding:0px 5px 0px 5px;
     padding-bottom: 30px;
 }
 .card-doctor-type{
@@ -385,9 +450,9 @@ footer
     
 }
 .footer-email-div{
- border-radius: 10px;
+ border-radius: 8px;
  border: none;
- padding: 6px 30px;
+ padding: 8px 30px;
   background-color: #ffffff;
 }
 .copy-rights{
@@ -401,4 +466,7 @@ footer
 .copy-rights-text{
     font-size: 18px;
     font-weight: 600;
+}
+.footer-list-item{
+    padding:3px 0px 3px 0px;
 }
